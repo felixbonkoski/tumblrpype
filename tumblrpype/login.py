@@ -353,9 +353,6 @@ class TumblrLogin(object):
         # Find out about this post, namely the Post Type
         soup = BeautifulSoup(editPage)
 
-        with open('edit-%s.html' % postID, 'wb') as F:
-            F.write(editPage)
-
         Tpost_type = soup.select('#post_type')[0]
         postType = Tpost_type['value']
 
