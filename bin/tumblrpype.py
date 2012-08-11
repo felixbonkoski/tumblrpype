@@ -4,7 +4,7 @@
 !    tumblrpype.py
 !  --------------------------------------------------------------------------
 !    
-!    This module implements the core functions of tumblrpype.
+!    Implements the command-line callable `tumblrpype`
 !
 !    Except where otherwise noted, the code in tumblrpype is
 !        Copyright (c) 2012  Felix Bonkoski <felix@post-theory.com>
@@ -17,4 +17,4 @@
 
 import os
 
-print "Hello world"
+print "Hello, I am just a stub!"
